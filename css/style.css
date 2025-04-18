@@ -1,0 +1,621 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #101129;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  
+  margin: 48px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px; 
+  border-bottom: 1px solid #ccc;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px;
+  
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section.hero {
+  padding: 60px 16px;
+  color: #fff;
+  text-align: center;
+  padding: 60px 16px;
+  max-width: 1200px; 
+  margin: auto; 
+}
+
+.hero h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 24px;
+  position: relative;
+}
+
+.hero p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px
+}
+
+.uno {
+  position: relative;
+  width: 100%;
+  height: 25vh;
+  overflow: hidden;
+}
+
+.img-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.img-hero img {
+  width: 100%;
+  height: 100%;
+}
+
+.testo-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.testo-hero .contenitore-testo-hero {
+  max-width: 900px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.contenitore-testo-hero p {
+  font-size: 18px;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 64px 16px 32px; 
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+.carte-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  align-items: start;
+}
+
+.h2-carte {
+  position: sticky;
+  top: 140px;
+  font-size: 18px; 
+  font-weight: normal;
+  padding-right: 50px;
+}
+
+.h2-carte h2 {
+  margin: 0;
+  font-size: 22px;
+
+}
+
+.content-carte {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  
+}
+
+.p-carte {
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: rgba(217, 217, 217,);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+  
+}
+
+.p-carte p {
+  margin-bottom: 1rem;
+  font-size: 16px; 
+  color: #101129;
+}
+
+.p-carte h2{
+  font-size: 20px;
+}
+
+.img-carte img {
+  height: auto; 
+  border-radius: 8px;
+}
+
+section.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1200px; 
+  margin: 48px auto;
+  gap: 30px;
+  
+}
+
+.card img,
+section.card img {
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+section.card p,
+.card .text-box p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(193, 219,208,100);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 45px;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  
+}
+
+section.card .text a {
+  color: #101129;
+  font-weight: bold ;
+}
+
+section.card div {
+  border-radius: 10px;
+  padding: 0 0 5px;
+  height: auto;
+}
+
+section.intro {
+  margin: auto;
+  font-size: 18px;
+  color: #101129;
+  padding: 50px;
+}
+
+.content {
+  max-width: 1200px; 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 32px 16px; 
+}
+
+.card,
+.blocco {
+  display: flex;
+  align-items: stretch;
+  gap: 25px;
+}
+
+.card img,
+.blocco img {
+  width: 15%; 
+
+  border-radius: 8px;
+}
+
+.card .text-box,
+.blocco .text-box {
+  width: 100%;
+  padding: 25px;
+  border-radius: 8px;
+  color: #101129;
+}
+
+.card .text-box {
+  background-color: #CEF17B;
+}
+
+.blocco .text-box {
+  background-color: #D5EFE6;
+}
+
+.card .text-box h2,
+.blocco .text-box h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card .text-box p,
+.blocco .text-box p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.attivita-ed-esperienze {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: stretch; /* Cambiato da flex-start a stretch per forzare l'altezza uniforme */
+  max-width: 1200px;
+  margin: 48px auto;
+  padding-bottom: 20px;
+  gap: 30px; /* Aggiunto per un po' di spazio tra gli elementi */
+}
+
+.box-testo {
+  background-color: #CEF17B;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 100%;
+  height: 100%; /* Imposta l'altezza a 100% per adattarsi alla stessa altezza delle immagini */
+  display: flex;
+  flex-direction: column; /* Assicurati che il contenuto del testo sia disposto verticalmente */
+  
+}
+
+.box-testo h2,
+.box-testo p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  padding: 15px;
+  
+}
+
+.box-testo a {
+  color: #084734;
+  font-weight: bold;
+  padding-left: 15px;
+  
+}
+
+
+.box-immagini {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch; 
+}
+
+.box-immagini img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+
+.altri-parchi {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* Ridotto il gap */
+  grid-template-columns: repeat(4, 1fr); /* Quattro colonne su schermi grandi */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.testo-parco {
+  background-color: #CEF17B;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px; /* Aggiunta una dimensione di font più piccola */
+}
+
+.nome-sezione h1 {
+  max-width: 1200px; 
+  margin: 48px auto;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1.2rem 2rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+footer nav {
+  display: flex;
+  gap: 10px;
+}
+
+footer nav a {
+  color: #101129;
+  text-decoration: none;
+  
+}
+
+@media (max-width: 768px) {
+  /* Impostazioni per header e footer */
+  header,
+  footer {
+    flex-direction: row; /* Modificato per una visualizzazione verticale */
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  header nav ul,
+  footer nav {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /* Hero Section */
+  section.hero h1 {
+    font-size: 18px;
+    padding: 16px;
+  }
+
+  section.hero p {
+    font-size: 16px;
+  }
+
+  /* Card Layout (singola colonna) */
+  section.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  /* Testo card */
+  section.card p {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  /* Card e Blocco Layout */
+  .card,
+  .blocco {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .card img,
+  .blocco img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .text-box,
+  .blocco .text-box {
+    padding: 16px;
+  }
+
+  /* Titoli delle card */
+  .card .text-box h2,
+  .blocco .text-box h2 {
+    font-size: 22px;
+  }
+
+  .card .text-box p,
+  .blocco .text-box p {
+    font-size: 16px;
+  }
+
+  .attivita-ed-esperienze {
+    grid-template-columns: 1fr 1fr; /* Due colonne su tablet */
+    padding: 30px 16px; /* Spaziatura per schermi più piccoli */
+    gap: 20px; /* Ridotto il gap per migliorare l'allineamento */
+  }
+
+  /* Modifica per i box di testo */
+  .box-testo h2,
+  .box-testo p {
+    font-size: 18px; /* Ridurre la dimensione del testo */
+  }
+
+  /* Modifica per le immagini */
+  .box-immagini {
+    flex-direction: column; /* Disporre le immagini in verticale per schermi piccoli */
+    gap: 20px;
+    width: 100%; /* Le immagini prendono tutta la larghezza */
+  }
+
+  .box-immagini img {
+    width: 100%; /* Immagini adattabili */
+    height: auto;
+  }
+
+  /* Sezione Altri Parchi */
+  .altri-parchi {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 16px;
+  }
+
+  .testo-parco {
+    font-size: 16px;
+    padding: 16px;
+  }
+
+  .nome-sezione h1 {
+    font-size: 22px;
+    padding: 0 16px;
+  }
+
+  /* Sezione Carte */
+  .carte {
+    padding: 32px 16px;
+    gap: 32px;
+  }
+
+  .carte-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .h2-carte {
+    position: static;
+    font-size: 16px;
+    padding-right: 0;
+  }
+
+  .h2-carte h2 {
+    font-size: 20px;
+  }
+
+  .p-carte {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .img-carte img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  /* Hero Section */
+  section.hero h1 {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  section.hero p,
+  .box-testo p,
+  .card .text-box p,
+  .blocco .text-box p,
+  .testo-parco,
+  .p-carte {
+    font-size: 14px;
+  }
+
+  /* Card Titoli */
+  .nome-sezione h1,
+  .card .text-box h2,
+  .blocco .text-box h2,
+  .h2-carte h2 {
+    font-size: 18px;
+  }
+
+  /* Box di testo */
+  .box-testo,
+  .carte,
+  .carte-layout,
+  .altri-parchi,
+  .attivita-ed-esperienze,
+  .section.card {
+    padding: 0 12px;
+    gap: 16px;
+  }
+
+  /* Immagini */
+  .img-carte img,
+  .box-immagini img,
+  .card img,
+  .blocco img {
+    border-radius: 4px;
+  }
+
+  /* Ridotto il padding e gap per adattare meglio il layout */
+  .box-immagini {
+    gap: 16px;
+  }
+
+  attivita-ed-esperienze {
+    grid-template-columns: 1fr; /* Una sola colonna per schermi piccoli */
+    gap: 16px; /* Ulteriore riduzione dello spazio tra gli elementi */
+    padding: 20px 12px; /* Riduzione degli spazi laterali */
+  }
+
+  /* Modifica per i box di testo */
+  .box-testo h2,
+  .box-testo p {
+    font-size: 16px; /* Ancora più piccolo per dispositivi mobili */
+    align-items: center;
+    align-content: center;
+  }
+
+  /* Modifica per le immagini */
+  .box-immagini {
+    flex-direction: column; /* Disporre le immagini in verticale per schermi molto piccoli */
+    gap: 16px; /* Ridurre ulteriormente lo spazio tra le immagini */
+    width: 100%;
+  }
+
+  .box-immagini img {
+    width: 100%; /* Le immagini si adattano alla larghezza dello schermo */
+    height: auto;
+  }
+}
+
+
+
+
+.blocco .text-box h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.blocco .text-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
