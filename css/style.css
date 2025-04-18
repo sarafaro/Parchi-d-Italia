@@ -384,7 +384,7 @@ footer nav a {
   
 }
 
-/* Media Query per dispositivi con larghezza max 768px */
+
 @media (max-width: 768px) {
   
   header,
@@ -411,7 +411,7 @@ footer nav a {
     font-size: 16px;
   }
 
-  /* Card */
+ 
   section.card {
     display: grid;
     grid-template-columns: 1fr;
@@ -424,7 +424,7 @@ footer nav a {
     padding: 12px;
   }
 
-  /* Card and Blocco Layout */
+ 
   .card,
   .blocco {
     flex-direction: column;
@@ -452,11 +452,11 @@ footer nav a {
     font-size: 16px;
   }
 
-  /* Attività ed Esperienze */
+
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
-    padding: 16px;
-    gap: 16px;
+     padding: 30px 16px;
+     gap: 20px;
   }
 
   .box-testo h2,
@@ -508,7 +508,7 @@ footer nav a {
 
   .h2-carte {
     position: static;
-    font-size: 16px;
+    font-size: 18px;
     padding-right: 0;
   }
 
@@ -558,7 +558,7 @@ footer nav a {
   .altri-parchi,
   .attivita-ed-esperienze,
   .section.card {
-    padding: 12px 12px;
+    padding: 0 12px;
     gap: 16px;
   }
 
