@@ -41,7 +41,7 @@ header p {
 
 header nav ul {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   list-style: none;
   padding: 15px;
   font-weight: bold;
@@ -391,19 +391,19 @@ footer nav a {
     flex-direction: row; 
     align-items: center;
     text-align: center;
-    gap: 15px;
+    gap: 20px;
   }
 
   header nav ul,
   footer nav {
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
   }
 
   
   section.hero h1 {
-    font-size: 16px;
-    padding: 16px;
+    font-size: 14px;
+    padding: 10px;
   }
 
   section.hero p {
@@ -550,7 +550,7 @@ footer nav a {
   .card .text-box h2,
   .blocco .text-box h2,
   .h2-carte h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 
@@ -569,7 +569,7 @@ footer nav a {
   .box-immagini img,
   .card img,
   .blocco img {
-    border-radius: 4px;
+    border-radius: 8px;
   }
 
   
@@ -580,13 +580,18 @@ footer nav a {
   attivita-ed-esperienze {
     grid-template-columns: 1fr; 
     gap: 16px; 
-    padding: 20px 12px; 
+    padding: 16px; 
   }
 
   
-  .box-testo h2,
-  .box-testo p {
-    font-size: 16px; 
+  .box-testo h2 {
+    font-size: 18px; 
+    align-items: center;
+    align-content: center;
+  }
+
+   .box-testo p{
+      font-size: 16px; 
     align-items: center;
     align-content: center;
   }
