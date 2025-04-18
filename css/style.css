@@ -475,7 +475,7 @@ footer nav a {
     height: auto;
   }
 
-  /* Altri Parchi */
+
   .altri-parchi {
     display: grid;
     grid-template-columns: 1fr;
@@ -488,13 +488,13 @@ footer nav a {
     padding: 16px;
   }
 
-  /* Nome sezione */
+  
   .nome-sezione h1 {
     font-size: 22px;
     padding: 0 16px;
   }
 
-  /* Carte */
+ 
   .carte {
     padding: 32px 16px;
     gap: 32px;
@@ -528,7 +528,7 @@ footer nav a {
   }
 }
 
-/* Media Query per dispositivi con larghezza max 480px */
+
 @media (max-width: 480px) {
   
   section.hero h1 {
@@ -558,7 +558,7 @@ footer nav a {
   .altri-parchi,
   .attivita-ed-esperienze,
   .section.card {
-    padding: 0 12px;
+    padding: 12px 12px;
     gap: 16px;
   }
 
