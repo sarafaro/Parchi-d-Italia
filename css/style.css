@@ -285,11 +285,11 @@ section.intro {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  align-items: stretch; /* Cambiato da flex-start a stretch per forzare l'altezza uniforme */
+  align-items: stretch; 
   max-width: 1200px;
   margin: 48px auto;
   padding-bottom: 20px;
-  gap: 30px; /* Aggiunto per un po' di spazio tra gli elementi */
+  gap: 30px; 
 }
 
 .box-testo {
@@ -297,9 +297,9 @@ section.intro {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   width: 100%;
-  height: 100%; /* Imposta l'altezza a 100% per adattarsi alla stessa altezza delle immagini */
+  height: 100%; 
   display: flex;
-  flex-direction: column; /* Assicurati che il contenuto del testo sia disposto verticalmente */
+  flex-direction: column; 
   
 }
 
@@ -339,8 +339,8 @@ section.intro {
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 20px; /* Ridotto il gap */
-  grid-template-columns: repeat(4, 1fr); /* Quattro colonne su schermi grandi */
+  gap: 20px; 
+  grid-template-columns: repeat(4, 1fr); 
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -351,7 +351,7 @@ section.intro {
   border-radius: 10px;
   font-weight: bold;
   text-align: center;
-  font-size: 16px; /* Aggiunta una dimensione di font più piccola */
+  font-size: 16px; 
 }
 
 .nome-sezione h1 {
@@ -385,10 +385,10 @@ footer nav a {
 }
 
 @media (max-width: 768px) {
-  /* Impostazioni per header e footer */
+  
   header,
   footer {
-    flex-direction: row; /* Modificato per una visualizzazione verticale */
+    flex-direction: row; 
     align-items: center;
     text-align: center;
     gap: 15px;
@@ -400,17 +400,17 @@ footer nav a {
     gap: 10px;
   }
 
-  /* Hero Section */
+  
   section.hero h1 {
-    font-size: 18px;
+    font-size: 16px;
     padding: 16px;
   }
 
   section.hero p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
-  /* Card Layout (singola colonna) */
+ 
   section.card {
     display: grid;
     grid-template-columns: 1fr;
@@ -418,13 +418,12 @@ footer nav a {
     padding: 0 16px;
   }
 
-  /* Testo card */
+ 
   section.card p {
     font-size: 16px;
     padding: 12px;
   }
 
-  /* Card e Blocco Layout */
   .card,
   .blocco {
     flex-direction: column;
@@ -442,10 +441,10 @@ footer nav a {
     padding: 16px;
   }
 
-  /* Titoli delle card */
+  
   .card .text-box h2,
   .blocco .text-box h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .card .text-box p,
@@ -454,30 +453,30 @@ footer nav a {
   }
 
   .attivita-ed-esperienze {
-    grid-template-columns: 1fr 1fr; /* Due colonne su tablet */
-    padding: 30px 16px; /* Spaziatura per schermi più piccoli */
-    gap: 20px; /* Ridotto il gap per migliorare l'allineamento */
+    grid-template-columns: 1fr ; 
+    padding: 30px 16px; 
+    gap: 20px; 
   }
 
-  /* Modifica per i box di testo */
+
   .box-testo h2,
   .box-testo p {
-    font-size: 18px; /* Ridurre la dimensione del testo */
+    font-size: 20px; 
   }
 
-  /* Modifica per le immagini */
+ 
   .box-immagini {
-    flex-direction: column; /* Disporre le immagini in verticale per schermi piccoli */
+    flex-direction: column; 
     gap: 20px;
-    width: 100%; /* Le immagini prendono tutta la larghezza */
+    width: 100%; 
   }
 
   .box-immagini img {
-    width: 100%; /* Immagini adattabili */
+    width: 100%;
     height: auto;
   }
 
-  /* Sezione Altri Parchi */
+ 
   .altri-parchi {
     display: grid;
     grid-template-columns: 1fr;
@@ -495,7 +494,7 @@ footer nav a {
     padding: 0 16px;
   }
 
-  /* Sezione Carte */
+  
   .carte {
     padding: 32px 16px;
     gap: 32px;
@@ -531,7 +530,7 @@ footer nav a {
 
 
 @media (max-width: 480px) {
-  /* Hero Section */
+ 
   section.hero h1 {
     font-size: 16px;
     padding: 12px;
@@ -546,7 +545,7 @@ footer nav a {
     font-size: 14px;
   }
 
-  /* Card Titoli */
+ 
   .nome-sezione h1,
   .card .text-box h2,
   .blocco .text-box h2,
@@ -554,7 +553,7 @@ footer nav a {
     font-size: 18px;
   }
 
-  /* Box di testo */
+
   .box-testo,
   .carte,
   .carte-layout,
@@ -565,7 +564,7 @@ footer nav a {
     gap: 16px;
   }
 
-  /* Immagini */
+
   .img-carte img,
   .box-immagini img,
   .card img,
@@ -573,34 +572,34 @@ footer nav a {
     border-radius: 4px;
   }
 
-  /* Ridotto il padding e gap per adattare meglio il layout */
+  
   .box-immagini {
     gap: 16px;
   }
 
   attivita-ed-esperienze {
-    grid-template-columns: 1fr; /* Una sola colonna per schermi piccoli */
-    gap: 16px; /* Ulteriore riduzione dello spazio tra gli elementi */
-    padding: 20px 12px; /* Riduzione degli spazi laterali */
+    grid-template-columns: 1fr; 
+    gap: 16px; 
+    padding: 20px 12px; 
   }
 
-  /* Modifica per i box di testo */
+  
   .box-testo h2,
   .box-testo p {
-    font-size: 16px; /* Ancora più piccolo per dispositivi mobili */
+    font-size: 16px; 
     align-items: center;
     align-content: center;
   }
 
-  /* Modifica per le immagini */
+ 
   .box-immagini {
-    flex-direction: column; /* Disporre le immagini in verticale per schermi molto piccoli */
-    gap: 16px; /* Ridurre ulteriormente lo spazio tra le immagini */
+    flex-direction: column; 
+    gap: 16px; 
     width: 100%;
   }
 
   .box-immagini img {
-    width: 100%; /* Le immagini si adattano alla larghezza dello schermo */
+    width: 100%; 
     height: auto;
   }
 }
