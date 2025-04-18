@@ -22,8 +22,7 @@ a:hover {
 }
 
 header {
-  
-  margin: 16px auto;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 8px; 
@@ -34,7 +33,7 @@ header p {
   margin: 10px 0 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   padding: 15px;
   
 }
@@ -61,7 +60,7 @@ section.hero {
   margin: 0;
   font-weight: normal;
   font-size: 18px;
-  padding: 24px;
+  padding: 20px;
   position: relative;
 }
 
@@ -401,14 +400,14 @@ footer nav a {
     gap: 20px;
   }
 
-  /* Sezione Hero */
+
   section.hero h1 {
-    font-size: 18px;
-    padding: 16px;
+    font-size: 16px;
+    
   }
 
   section.hero p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
  
@@ -576,7 +575,7 @@ footer nav a {
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 12px;
+    padding: 0 5px;
   }
 
   .box-testo h2 {
