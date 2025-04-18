@@ -576,7 +576,7 @@ footer nav a {
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 16px;
+    padding: 0 12px;
   }
 
   .box-testo h2 {
