@@ -541,10 +541,14 @@ footer nav a {
 
 
 .nav-bar {
+   margin-top: 5%;
+  padding: 1.2rem 2rem;
+  border-top: 1px solid #ccc;
   display: flex;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
+  justify-content: space-between;
+  font-size: 12px;
+  flex-wrap: wrap;
+  background-color: #fff;
 }
 
 .nav-bar p {
