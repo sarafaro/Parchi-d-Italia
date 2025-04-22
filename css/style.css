@@ -541,28 +541,18 @@ footer nav a {
 
 
 .nav-bar {
-  margin-top: 5%;
+  margin-top: 3%;
   padding: 1.2rem 2rem;
-  border-top: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 12px;
   flex-wrap: wrap;
+  gap:20px
 }
 
 .nav-bar a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  margin-right: 5%;
-}
-
-.nav-bar a.logo {
-  font-weight: bold;
-  margin-right: auto;
-  margin-left: 5%;
-  font-size: 16px;
+ text-decoration: none;
 }
 
 
