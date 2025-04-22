@@ -589,8 +589,8 @@ footer nav a {
   max-width: 80%;
 }
 
-.content1 h1 {
-  font-size: 26px;
+.content h1 {
+  font-size: 18px;
   margin: 0;
   margin-bottom: 70px;
   align-items: center;
@@ -599,7 +599,7 @@ footer nav a {
 
 .content p {
   margin-bottom: 60px;
-  font-size: 18px;
+  font-size: 12px;
  
 }
 
@@ -641,13 +641,14 @@ footer nav a {
   justify-content: space-between;
   padding: 20px 40px;
   text-alig:center;
+  font-size: 14px;
 }
 
 
 .header-contenitore-parchi {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parchi\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
@@ -672,7 +673,7 @@ footer nav a {
 .header-contenitore-attivita {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/attività\ ed\ esperienze\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
@@ -696,7 +697,7 @@ footer nav a {
 .header-contenitore-sila {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parco\ sila\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
@@ -720,7 +721,7 @@ footer nav a {
 .header-contenitore-abruzzo {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parco\ abruzzo\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
@@ -744,7 +745,7 @@ footer nav a {
 .header-contenitore-toscano {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parco\ arcipelago\ toscano\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
@@ -768,7 +769,7 @@ footer nav a {
 .header-contenitore-etna {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parco\ etna\ section\ hero.jpeg");
   background-size: cover;
   background-position: center;
@@ -792,7 +793,7 @@ footer nav a {
 .header-contenitore-vesuvio {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-image:url("../img/parco\ vesuvio\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
