@@ -574,26 +574,16 @@ footer nav a {
 .content {
   max-width: 80%;
   align-items: center;
-
-  gap:0px;
   
 }
 
 .content h1 {
   font-size: 24px;
-  text-align: center;
-  align-items: center;
-
-  gap:0px;
 }
 
 
 .content p {
   font-size: 14px;
-  text-align: center;
-  align-items: center;
- 
-  gap:0px;
  }
 
 .prova-img {
