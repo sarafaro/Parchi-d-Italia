@@ -541,52 +541,38 @@ footer nav a {
 
 
 .nav-bar {
-   margin-top: 3%;
+  margin-top: 5%;
   padding: 1.2rem 2rem;
+  border-top: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 12px;
   flex-wrap: wrap;
-  
-}
-
-.nav-bar p {
-  width: 50%;
-  margin: 0;
-  margin-left: 5%;
-  font-size: 14px;
-}
-
-.nav-bar a:first-of-type {
-  margin-left: auto; 
 }
 
 .nav-bar a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-  margin: 0;
-  margin-right: 5%; 
-  
+  margin-right: 5%;
 }
 
-.nav-bar a:hover {
-  text-decoration: underline;
+.nav-bar a.logo {
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 5%;
+  font-size: 16px;
 }
+
 
 .content {
+  margin-left: 5%;
   max-width: 80%;
-  align-items: center;
-  align-content: center;
-  
+  text-align: center;
 }
 
-.content h1 {
-  font-size: 24px;
-  margin: 0;
-  text-align: center;
-  align-items: center;
-}
+
 
 .content {
   margin-left: 5%;
@@ -594,10 +580,12 @@ footer nav a {
 }
 
 .content h1 {
+ .content h1 {
   font-size: 24px;
   margin: 0;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+}
+
 }
 
 .content p {
