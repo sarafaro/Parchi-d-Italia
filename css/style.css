@@ -114,7 +114,7 @@ section.card p,
   height: 45px;
   align-items: center;
   align-content: center;
-  padding: 10px;
+  padding: 15px;
  border-radius: 8px;
   
 }
@@ -217,7 +217,7 @@ section.intro {
   font-size: 18px;
   margin-bottom: 15px;
   line-height: 1.5;
-  padding: 10px;
+  padding: 15px;
   align-items: center;
   
   
@@ -314,7 +314,7 @@ footer nav a {
 
 
   section.hero h1 {
-    font-size: 14px;
+    font-size: 18px;
     
   }
 
@@ -331,7 +331,7 @@ footer nav a {
   }
 
   section.card p {
-    font-size: 16px;
+    font-size: 14px;
     padding: 12px;
   }
 
@@ -372,7 +372,7 @@ footer nav a {
 
   .box-testo h2,
   .box-testo p {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .box-immagini {
@@ -395,13 +395,13 @@ footer nav a {
   }
 
   .testo-parco {
-    font-size: 16px;
+    font-size: 14px;
     padding: 16px;
   }
 
   
   .nome-sezione h1 {
-    font-size: 22px;
+    font-size: 24px;
     padding: 0 16px;
   }
 
@@ -419,7 +419,7 @@ footer nav a {
 
   .h2-carte {
     position: static;
-    font-size: 18px;
+    font-size: 20px;
     padding-right: 0;
   }
 
@@ -428,7 +428,7 @@ footer nav a {
   }
 
   .p-carte {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.4;
   }
 
@@ -496,7 +496,7 @@ footer nav a {
   }
 
   .box-testo p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .box-immagini {
@@ -534,7 +534,7 @@ footer nav a {
   align-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 
@@ -551,7 +551,7 @@ footer nav a {
   width: 50%;
   margin: 0;
   margin-left: 5%;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .nav-bar a:first-of-type {
@@ -561,7 +561,7 @@ footer nav a {
 .nav-bar a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
   margin-right: 5%; 
   
@@ -577,14 +577,14 @@ footer nav a {
 }
 
 .content h1 {
-  font-size: 26px;
+  font-size: 24px;
   margin: 0;
   text-align: center;
   align-items: center;
   align-content: center;
 }
 
-.content1 {
+.content {
   margin-left: 5%;
   max-width: 80%;
 }
