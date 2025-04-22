@@ -592,7 +592,7 @@ footer nav a {
 .content h1 {
   font-size: 24px;
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom: 5px;
   align-items: center;
   align-content: center;
 }
@@ -641,7 +641,7 @@ footer nav a {
   justify-content: space-between;
   padding: 20px;
   text-alig:center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 
