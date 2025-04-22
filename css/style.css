@@ -21,106 +21,14 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 8px; 
-  border-bottom: 1px solid #ccc;
-}
 
-header p {
-  margin: 10px 0 0;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 15px;
-  
-}
-
-header nav ul {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-section.hero {
-  padding: 60px 16px;
-  color: #fff;
-  text-align: center;
-  padding: 60px 16px;
-  max-width: 1200px; 
-  margin: auto; 
-}
-
-.hero h1 {
-  margin: 0;
-  font-weight: normal;
-  font-size: 18px;
-  padding: 20px;
-  position: relative;
-}
-
-.hero p {
-  margin: 0;
-  font-weight: normal;
-  font-size: 16px
-}
-
-.uno {
-  position: relative;
-  width: 100%;
-  height: 25vh;
-  overflow: hidden;
-}
-
-.img-hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-}
-
-.img-hero img {
-  width: 100%;
-  height: 100%;
-}
-
-.testo-hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.testo-hero .contenitore-testo-hero {
-  max-width: 900px;
-  padding: 20px;
-  font-size: 20px;
-}
-
-.contenitore-testo-hero p {
-  font-size: 18px;
-}
 
 .carte {
   display: flex;
   flex-direction: column;
   gap: 64px;
   padding: 64px 16px 32px; 
-  max-width: 1000px;
+  max-width: 55%;
   margin: auto;
   
 }
@@ -157,9 +65,9 @@ section.hero {
 .p-carte {
   font-size: 18px;
   line-height: 1.4;
-  background-color: rgba(217, 217, 217,);
+  background-color: rgba(217, 217, 217,0.5);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+  padding: 10px;
   border-radius: 8px;
   
 }
@@ -182,7 +90,7 @@ section.hero {
 section.card {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  max-width: 1200px; 
+  max-width: 55%; 
   margin: 48px auto;
   gap: 30px;
   
@@ -201,7 +109,7 @@ section.card p,
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  background-color: rgba(193, 219,208,100);
+  background-color: #d9d9d9;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 45px;
   align-items: center;
@@ -229,7 +137,7 @@ section.intro {
 }
 
 .content {
-  max-width: 1200px; 
+  max-width: 60%; 
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -285,14 +193,14 @@ section.intro {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: stretch; 
-  max-width: 1200px;
+  max-width: 55%;
   margin: 48px auto;
   padding-bottom: 20px;
   gap: 30px; 
 }
 
 .box-testo {
-  background-color: #CEF17B;
+  background-color: #d9d9d9;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   width: 100%;
@@ -336,12 +244,12 @@ section.intro {
 
 .altri-parchi {
   display: grid;
-  max-width: 1200px;
+  max-width: 55%;
   margin: 0 auto;
   gap: 20px; 
   grid-template-columns: repeat(4, 1fr); 
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .testo-parco {
@@ -354,7 +262,7 @@ section.intro {
 }
 
 .nome-sezione h1 {
-  max-width: 1200px; 
+  max-width: 55%; 
   margin: 48px auto;
   font-size: 24px;
   font-weight: bold;
@@ -362,7 +270,7 @@ section.intro {
 }
 
 footer {
-  margin-top: 3rem;
+  margin-top: 3%;
   padding: 1.2rem 2rem;
   border-top: 1px solid #ccc;
   display: flex;
@@ -400,17 +308,18 @@ footer nav a {
     gap: 20px;
   }
 
-
+  
   section.hero h1 {
-    font-size: 16px;
-    
+    font-size: 18px;
+    padding: 16px;
   }
 
   section.hero p {
     font-size: 14px;
   }
 
- 
+
+
   section.card {
     display: grid;
     grid-template-columns: 1fr;
@@ -423,7 +332,7 @@ footer nav a {
     padding: 12px;
   }
 
- 
+
   .card,
   .blocco {
     flex-direction: column;
@@ -452,10 +361,12 @@ footer nav a {
   }
 
 
+
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
-     padding: 30px 16px;
-     gap: 20px;
+    padding: 30px 16px;
+    gap: 20px;
+
   }
 
   .box-testo h2,
@@ -487,13 +398,13 @@ footer nav a {
     padding: 16px;
   }
 
-  
+
   .nome-sezione h1 {
     font-size: 22px;
     padding: 0 16px;
   }
 
- 
+
   .carte {
     padding: 32px 16px;
     gap: 32px;
@@ -527,9 +438,8 @@ footer nav a {
   }
 }
 
-
 @media (max-width: 480px) {
-  
+
   section.hero h1 {
     font-size: 16px;
     padding: 12px;
@@ -575,8 +485,9 @@ footer nav a {
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 10px;  
-    width: 100%;  
+    padding: 0 12px;
+    padding: 16px;
+ 
   }
 
   .box-testo h2 {
@@ -602,14 +513,302 @@ footer nav a {
 
 
 
-.blocco .text-box h2 {
+.paragrafo{
+  margin-left: 9%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  align-items: center;
+ 
+  
+
+}
+
+
+.paragrafo p{
+  max-width: 60%;
+  line-height: 1.6;
+  margin-left: 15%;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
   font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+
 }
 
 
-.blocco .text-box p {
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.nav-bar p {
+  width: 50%;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 24px;
+}
+
+.nav-bar a:first-of-type {
+  margin-left: auto; 
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
   font-size: 16px;
-  line-height: 1.5;
+  margin: 0;
+  margin-right: 5%; 
+  
 }
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 70%;
+  
+}
+
+.content h1 {
+  font-size: 26px;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.content1 {
+  margin-left: 5%;
+  max-width: 80%;
+}
+
+.content1 h1 {
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 70px;
+  align-items: center;
+  align-content: center;
+}
+
+.content p {
+  margin-bottom: 60px;
+  font-size: 18px;
+ 
+}
+
+.prova-img {
+  display: none;
+}
+
+.header-contenitore {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/home\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header-contenitore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+
+
+
+.testo {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+
+.header-contenitore-parchi {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parchi\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-parchi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+
+.header-contenitore-attivita {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/attività\ ed\ esperienze\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-attivita::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.header-contenitore-sila {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parco\ sila\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-sila::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.header-contenitore-abruzzo {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parco\ abruzzo\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-abruzzo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.header-contenitore-toscano {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parco\ arcipelago\ toscano\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-toscano::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.header-contenitore-etna {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parco\ etna\ section\ hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-etna::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+.header-contenitore-vesuvio {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image:url("../img/parco\ vesuvio\ section\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+
+}
+
+.header-contenitore-vesuvio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+}
+
+
+
