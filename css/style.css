@@ -541,47 +541,58 @@ footer nav a {
 
 
 .nav-bar {
-  margin-top: 3%;
+   margin-top: 5%;
   padding: 1.2rem 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   font-size: 12px;
   flex-wrap: wrap;
-  gap:20px
+  
+}
+
+.nav-bar p {
+  width: 50%;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.nav-bar a:first-of-type {
+  margin-left: auto; 
 }
 
 .nav-bar a {
- text-decoration: none;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0;
+  margin-right: 5%; 
+  
 }
 
-
-.content {
-  margin-left: 5%;
-  max-width: 80%;
-  text-align: center;
+.nav-bar a:hover {
+  text-decoration: underline;
 }
 
-
-
 .content {
-  margin-left: 5%;
   max-width: 80%;
+  align-items: center;
+  align-content: center;
+  
 }
 
 .content h1 {
- .content h1 {
   font-size: 24px;
   margin: 0;
   text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
-}
 
 .content p {
  font-size: 18px;
- 
-}
+ }
 
 .prova-img {
   display: none;
