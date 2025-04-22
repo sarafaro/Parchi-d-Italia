@@ -28,7 +28,7 @@ a:hover {
   flex-direction: column;
   gap: 64px;
   padding: 64px 16px 32px; 
-  max-width: 65%;
+  max-width: 70%;
   margin: auto;
   
 }
@@ -90,7 +90,7 @@ a:hover {
 section.card {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  max-width: 65%; 
+  max-width: 70%; 
   margin: 48px auto;
   gap: 30px;
   
@@ -115,6 +115,7 @@ section.card p,
   align-items: center;
   align-content: center;
   padding: 10px;
+ border-radius: 8px;
   
 }
 
@@ -137,7 +138,7 @@ section.intro {
 }
 
 .content {
-  max-width: 65%; 
+  max-width: 70%; 
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -193,7 +194,7 @@ section.intro {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: stretch; 
-  max-width: 65%;
+  max-width: 70%;
   margin: 48px auto;
   padding-bottom: 20px;
   gap: 30px; 
@@ -212,17 +213,17 @@ section.intro {
 
 .box-testo h2,
 .box-testo p {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 15px;
   line-height: 1.5;
-  padding: 15px;
+  padding: 10px;
   
 }
 
 .box-testo a {
   color: #084734;
   font-weight: bold;
-  padding-left: 15px;
+  padding-left: 10px;
   
 }
 
@@ -244,7 +245,7 @@ section.intro {
 
 .altri-parchi {
   display: grid;
-  max-width: 65%;
+  max-width: 70%;
   margin: 0 auto;
   gap: 20px; 
   grid-template-columns: repeat(4, 1fr); 
@@ -262,7 +263,7 @@ section.intro {
 }
 
 .nome-sezione h1 {
-  max-width: 65%; 
+  max-width: 70%; 
   margin: 48px auto;
   font-size: 24px;
   font-weight: bold;
@@ -296,7 +297,7 @@ footer nav a {
   
   header,
   footer {
-    flex-direction: column; 
+    flex-direction: row; 
     align-items: center;
     text-align: center;
     gap: 20px;
@@ -305,12 +306,12 @@ footer nav a {
   header nav ul,
   footer nav {
     flex-direction: row;
-    gap: 20px;
+    gap: 25px;
   }
 
 
   section.hero h1 {
-    font-size: 16px;
+    font-size: 14px;
     
   }
 
