@@ -541,12 +541,10 @@ footer nav a {
 
 
 .nav-bar {
-   margin-top: 5%;
-  padding: 1.2rem 2rem;
   display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
   
 }
 
@@ -562,11 +560,11 @@ footer nav a {
 }
 
 .nav-bar a {
-  color: white;
+ color: white;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
-  margin-right: 5%; 
+  margin-right: 5%;
   
 }
 
@@ -591,7 +589,10 @@ footer nav a {
 
 
 .content p {
- font-size: 18px;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  align-content: center; 
  }
 
 .prova-img {
@@ -630,9 +631,7 @@ footer nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
-  text-alig:center;
-  font-size: 14px;
+  padding: 20px 40px;
 }
 
 
