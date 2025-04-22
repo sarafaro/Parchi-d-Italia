@@ -590,7 +590,7 @@ footer nav a {
 }
 
 .content h1 {
-  font-size: 18px;
+  font-size: 24px;
   margin: 0;
   margin-bottom: 70px;
   align-items: center;
@@ -599,7 +599,7 @@ footer nav a {
 
 .content p {
   margin-bottom: 60px;
-  font-size: 12px;
+  font-size: 18px;
  
 }
 
@@ -639,9 +639,9 @@ footer nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px;
   text-alig:center;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 
