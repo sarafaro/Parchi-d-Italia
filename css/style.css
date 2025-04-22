@@ -313,12 +313,12 @@ footer nav a {
   }
 
 
-  section.hero h1 {
+  .content h1 {
     font-size: 18px;
     
   }
 
-  section.hero p {
+   .content p {
     font-size: 14px;
   }
 
@@ -442,12 +442,12 @@ footer nav a {
 
 @media (max-width: 480px) {
   
-  section.hero h1 {
+  .content h1 {
     font-size: 16px;
     padding: 12px;
   }
 
-  section.hero p,
+  .content p,
   .box-testo p,
   .card .text-box p,
   .blocco .text-box p,
