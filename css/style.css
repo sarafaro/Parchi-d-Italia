@@ -303,13 +303,13 @@ footer nav a {
     flex-direction: row; 
     align-items: center;
     text-align: center;
-    gap: 25px;
+    gap: 30px;
   }
 
   header nav ul,
   footer nav {
     flex-direction: row;
-    gap: 25px;
+    gap: 30px;
   }
 
 
@@ -557,7 +557,7 @@ footer nav a {
   width: 50%;
   margin: 0;
   margin-left: 5%;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .nav-bar a:first-of-type {
@@ -567,7 +567,7 @@ footer nav a {
 .nav-bar a {
  color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   margin-right: 5%;
   
@@ -584,12 +584,12 @@ footer nav a {
 }
 
 .content h1 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 
 .content p {
-  font-size: 14px;
+  font-size: 16px;
  }
 
 .prova-img {
