@@ -213,12 +213,14 @@ section.intro {
 }
 
 .box-testo h2,
-.box-testo p {
+.box-testo p,
+.box-testo a{
   font-size: 18px;
   margin-bottom: 15px;
   line-height: 1.5;
   padding: 15px;
   align-items: center;
+  align-content: center;
   
   
 }
@@ -226,8 +228,6 @@ section.intro {
 .box-testo a {
   color: #084734;
   font-weight: bold;
-  padding-left: 10px;
-  
 }
 
 
