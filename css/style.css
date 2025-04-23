@@ -421,6 +421,7 @@ footer nav a {
     position: static;
     font-size: 20px;
     padding-right: 0;
+    padding-top: 16px;
   }
 
   .h2-carte h2 {
@@ -462,6 +463,11 @@ footer nav a {
   .h2-carte h2 {
     font-size: 20px;
   }
+
+  .h2-carte h2{
+   padding-top: 16px;
+  }
+    
 
   .box-testo,
   .carte,
