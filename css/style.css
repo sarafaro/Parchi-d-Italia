@@ -524,7 +524,7 @@ footer nav a {
 
 
 .paragrafo{
-  margin-left: 9%;
+  max-width: 70%;
   margin-top: 6%;
   margin-bottom: 6%;
   align-items: center;
@@ -535,7 +535,6 @@ footer nav a {
 
 .paragrafo p{
   max-width: 70%;
-  margin-left: 15%;
   align-items: center;
   align-content: center;
   margin-top: 5%;
