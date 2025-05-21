@@ -439,6 +439,7 @@ footer nav a {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding: 15px 15px 15px 15px;
   }
 
   .h2-carte {
@@ -547,13 +548,13 @@ footer nav a {
 
 
 .paragrafo {
-  max-width: 70%;
+  max-width: 80%;
   margin: 6% auto;  
  
 }
 
 .paragrafo p {
-  max-width: 70%;
+  max-width: 80%;
   margin: 5% auto; 
   font-size: 22px;
   text-align: center; 
