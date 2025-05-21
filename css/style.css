@@ -551,13 +551,13 @@ footer nav a {
 
 
 .paragrafo p{
-  max-width: auto;
+  max-width: 70%;
   margin-left: 15%;
   align-items: center;
   align-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: 20px;
+  font-size: 22px;
 
 }
 
@@ -607,7 +607,7 @@ footer nav a {
 
 
 .content p {
-  font-size: 16px;
+  font-size: 20px;
  }
 
 .prova-img {
