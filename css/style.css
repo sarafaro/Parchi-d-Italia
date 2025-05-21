@@ -298,9 +298,10 @@ footer nav a {
 
 
 @media (max-width: 768px) {
+  
   header,
   footer {
-    flex-direction: row;
+    flex-direction: row; 
     align-items: center;
     text-align: center;
     gap: 30px;
@@ -312,22 +313,19 @@ footer nav a {
     gap: 30px;
   }
 
-  .content {
-    max-width: 90%;
-    padding: 0 16px;
-  }
 
   .content h1 {
     font-size: 18px;
-    text-align: center;
+    
   }
 
-  .content p {
+   .content p {
     font-size: 14px;
-    text-align: center;
   }
 
+ 
   section.card {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 16px;
@@ -335,9 +333,10 @@ footer nav a {
 
   section.card p {
     font-size: 14px;
-    padding: 12px;
+    padding: 20px;
   }
 
+ 
   .card,
   .blocco {
     flex-direction: column;
@@ -345,11 +344,9 @@ footer nav a {
   }
 
   .card img,
-  .blocco img,
-  .img-carte img {
+  .blocco img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
   }
 
   .card .text-box,
@@ -367,16 +364,16 @@ footer nav a {
     font-size: 16px;
   }
 
+
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
-    padding: 0 16px 32px;
-    gap: 20px;
+     padding: 30px 10px;
+     gap: 20px;
   }
 
   .box-testo h2,
   .box-testo p {
     font-size: 14px;
-    text-align: center;
   }
 
   .box-immagini {
@@ -385,7 +382,14 @@ footer nav a {
     width: 100%;
   }
 
+  .box-immagini img {
+    width: 100%;
+    height: auto;
+  }
+
+
   .altri-parchi {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 16px;
@@ -396,20 +400,20 @@ footer nav a {
     padding: 16px;
   }
 
+  
   .nome-sezione h1 {
     font-size: 24px;
     padding: 0 16px;
-    text-align: center;
   }
 
+ 
   .carte {
     padding: 32px 16px;
     gap: 32px;
-    background: #f8f8f8;
-    border-radius: 16px;
   }
 
   .carte-layout {
+    display: flex;
     flex-direction: column;
     gap: 24px;
   }
@@ -417,13 +421,12 @@ footer nav a {
   .h2-carte {
     position: static;
     font-size: 20px;
-    padding: 0 16px;
-    text-align: center;
+    padding-right: 0;
+    padding-top: 16px;
   }
 
   .h2-carte h2 {
     font-size: 20px;
-    margin-top: 16px;
   }
 
   .p-carte {
@@ -431,17 +434,20 @@ footer nav a {
     line-height: 1.4;
   }
 
-  .paragrafo p {
-    margin: 5% 0;
-    padding: 0 16px;
-    font-size: 16px;
-    text-align: center;
+  .img-carte img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
   }
 }
 
+
+
 @media (max-width: 480px) {
+  
   .content h1 {
     font-size: 16px;
+   
   }
 
   .content p,
@@ -460,6 +466,11 @@ footer nav a {
     font-size: 20px;
   }
 
+  .h2-carte h2{
+   padding-top: 16px;
+  }
+    
+
   .box-testo,
   .carte,
   .carte-layout,
@@ -470,15 +481,30 @@ footer nav a {
     gap: 16px;
   }
 
+  .img-carte img,
+  .box-immagini img,
+  .card img,
+  .blocco img {
+    border-radius: 8px;
+  }
+
+  .box-immagini {
+    gap: 16px;
+  }
+
   .attivita-ed-esperienze {
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 10px;
-    width: 100%;
+    padding: 0 10px;  
+    width: 100%;  
   }
 
   .box-testo h2 {
     font-size: 18px;
+  }
+
+  .box-testo p {
+    font-size: 14px;
   }
 
   .box-immagini {
@@ -487,53 +513,11 @@ footer nav a {
     width: 100%;
   }
 
-  .paragrafo p {
-    font-size: 14px;
-    padding: 0 16px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .carte,
-  .content,
-  .attivita-ed-esperienze,
-  .altri-parchi {
-    max-width: 85%;
-    padding: 0 24px;
-    gap: 24px;
-  }
-
-  .h2-carte {
-    font-size: 20px;
-    padding: 0 24px;
-    text-align: center;
-  }
-
-  .card .text-box p,
-  .blocco .text-box p,
-  .box-testo p {
-    font-size: 16px;
-    line-height: 1.4;
-  }
-
-  .card,
-  .blocco {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .card img,
-  .blocco img {
-    width: 30%;
-    height: auto;
-  }
-
-  .img-carte img {
+  .box-immagini img {
     width: 100%;
     height: auto;
   }
 }
-
 
 
 
@@ -544,10 +528,9 @@ footer nav a {
   margin-top: 6%;
   margin-bottom: 6%;
   align-items: center;
- 
+  align-content: center;
   
-
-}
+ }
 
 
 .paragrafo p{
