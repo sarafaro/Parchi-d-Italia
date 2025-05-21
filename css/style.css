@@ -523,24 +523,17 @@ footer nav a {
 
 
 
-.paragrafo{
+.paragrafo {
   max-width: 70%;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  align-items: center;
-  align-content: center;
-  
- }
+  margin: 6% auto;  
+ 
+}
 
-
-.paragrafo p{
+.paragrafo p {
   max-width: 70%;
-  align-items: center;
-  align-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5% auto; 
   font-size: 22px;
-
+  text-align: center; 
 }
 
 
