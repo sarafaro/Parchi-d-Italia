@@ -296,7 +296,7 @@ footer nav a {
   
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   section.card {
     grid-template-columns: repeat(3, 1fr);
     
