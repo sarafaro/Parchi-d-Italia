@@ -440,69 +440,6 @@ footer nav a {
   }
 }
 
-@media (max-width: 1024px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 40px;
-  }
-
-  nav {
-    margin-top: 15px;
-  }
-
-  .contenuto-hero {
-    padding: 40px 30px;
-  }
-
-  h1 {
-    font-size: clamp(1.8rem, 4vw, 2.5rem);
-  }
-
-  h2 {
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
-  }
-
-  p {
-    font-size: clamp(1rem, 2vw, 1.1rem);
-  }
-
-  .carte {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    padding: 30px 40px;
-  }
-
-  .card {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-
-  .attivita-ed-esperienze {
-    grid-template-columns: 1fr;
-    padding: 30px 40px;
-  }
-
-  .esperienza {
-    max-width: 90%;
-    margin: 0 auto 20px auto;
-  }
-
-  .contenitore-immagine img {
-    width: 100%;
-    height: auto;
-  }
-
-  footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 30px;
-  }
-
-  .footer-info {
-    margin-bottom: 20px;
-  }
-}
 
 
 @media (max-width: 480px) {
@@ -603,7 +540,7 @@ footer nav a {
   align-content: center;
   margin-top: 5%;
   margin-bottom: 5%;
-  font-size: 16px;
+  font-size: 20px;
 
 }
 
