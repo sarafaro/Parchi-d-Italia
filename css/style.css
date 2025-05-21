@@ -114,7 +114,7 @@ section.card p,
   height: 45px;
   align-items: center;
   align-content: center;
-  padding: 15px;
+  padding: 20px 20px 20px 20px;
  border-radius: 8px;
   
 }
@@ -228,6 +228,7 @@ section.intro {
 .box-testo a {
   color: #084734;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 
