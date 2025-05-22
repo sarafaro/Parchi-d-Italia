@@ -503,6 +503,7 @@ footer nav a {
   .section.card {
     padding: 0 12px;
     gap: 16px;
+    max-width: 100%;
   }
 
   .img-carte img,
