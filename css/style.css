@@ -560,9 +560,10 @@ footer nav a {
 
 .paragrafo p {
   max-width: 82%;
-  margin: 5% auto; 
+  margin: 1em auto; 
   font-size: 20px;
-  text-align: left;  
+  text-align: left;
+  margin-top: 2em;
 }
 
 
