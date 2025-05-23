@@ -317,6 +317,16 @@ footer nav a {
     padding: 48px 16px 24px;
     gap: 48px;
   }
+   .content h1 {
+    font-size: 18px;
+    text-align:left;
+    
+  }
+
+   .content p {
+    font-size: 14px;
+    text-align:left;
+  }
 }
 
 @media (max-width: 850px) {
