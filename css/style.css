@@ -338,11 +338,13 @@ footer nav a {
 
   .content h1 {
     font-size: 18px;
+    text-align:left;
     
   }
 
    .content p {
     font-size: 14px;
+    text-align:left;
   }
 
  
