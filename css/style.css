@@ -327,8 +327,8 @@ footer nav a {
     font-size: 14px;
     text-align:left;
   }
-  .attivita-ed-esperienze {
-    grid-template-columns: repeat(1, 1fr); 
+ .attivita-ed-esperienze {
+    grid-template-columns: repeat(3, 1fr); 
     max-width: 70%; 
     gap: 24px; 
     margin: 32px auto;
@@ -345,13 +345,17 @@ footer nav a {
   }
 
   .box-immagini {
-    gap: 16px; 
-    flex-wrap: wrap; 
-  }
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch; 
+}
 
-  .box-immagini img {
-    height: auto; 
-    max-height: 300px;
+.box-immagini img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 8px;
   }
 }
 
