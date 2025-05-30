@@ -1,6 +1,6 @@
 
 body {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -22,34 +22,14 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
-  line-height: 1.6;
-  padding-left: 1.5rem; 
-}
 
-ul li {
-  margin-bottom: 14px;
-}
-
-.scopri {
-  display: flex;
-  justify-content: center; 
-  align-items: center;    
-
-}
-
-.scopri a {
-  text-decoration: underline;
-  color: #101129;
-  font-weight: bold;
-}
 
 .carte {
   display: flex;
   flex-direction: column;
   gap: 64px;
   padding: 64px 16px 32px; 
-  max-width: 1100px;
+  max-width: 70%;
   margin: auto;
   
 }
@@ -85,9 +65,9 @@ ul li {
 
 .p-carte {
   font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  line-height: 1.4;
+  background-color: rgba(217, 217, 217,0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px 20px 20px;
   border-radius: 8px;
   
@@ -110,55 +90,11 @@ ul li {
 
 section.card {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 1100px ; 
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 70%; 
   margin: 48px auto;
   gap: 30px;
   
-}
-
-
-.date-regioni {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1100px; 
-  margin: 48px auto;
-  gap: 30px;
-
-}
-
-.date-regioni img,
-.date-regioni img {
-  height: 250px;
-  width: 100%;
-  border-radius: 8px;
-}
-
-.date-regioni p,
-.date-regioni .text-box p {
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  height: 45px;
-  align-items: center;
-  align-content: center;
-  padding: 30px 30px 30px 30px;
- border-radius: 8px;
-  
-}
-
-.date-regioni .text a {
-  color: #101129;
-  font-weight: bold ;
-}
-
-.date-regioni div {
-  border-radius: 10px;
-  padding: 0 0 5px;
-  height: auto;
 }
 
 .card img,
@@ -174,8 +110,8 @@ section.card p,
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   height: 45px;
   align-items: center;
   align-content: center;
@@ -195,13 +131,6 @@ section.card div {
   height: auto;
 }
 
-.sezione-sfondo {
-  background-color: #f5f5dc; 
-  padding: 30px 20px;        
-  width: 100%;
-  box-sizing: border-box;  
-}
-
 section.intro {
   margin: auto;
   font-size: 18px;
@@ -210,7 +139,7 @@ section.intro {
 }
 
 .content {
-  max-width: 1100px; 
+  max-width: 70%; 
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -241,6 +170,14 @@ section.intro {
   color: #101129;
 }
 
+.card .text-box {
+  background-color: #CEF17B;
+}
+
+.blocco .text-box {
+  background-color: #D5EFE6;
+}
+
 .card .text-box h2,
 .blocco .text-box h2 {
   font-size: 30px;
@@ -254,20 +191,20 @@ section.intro {
   line-height: 1.5;
 }
 
-.sezione-storia {
+.attivita-ed-esperienze {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: stretch; 
-  max-width: 1100px;
+  max-width: 70%;
   margin: 48px auto;
   padding-bottom: 20px;
   gap: 30px; 
 }
 
 .box-testo {
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   width: 100%;
   height: 100%; 
@@ -290,7 +227,7 @@ section.intro {
 }
 
 .box-testo a {
-  color: #101129;
+  color: #084734;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -311,19 +248,31 @@ section.intro {
 }
 
 
-.nome-sezione1{
-  max-width: 1100px; 
-  margin: 48px auto;
-  font-size: 18px;
-  font-weight: bold;
+.altri-parchi {
+  display: grid;
+  max-width: 70%;
+  margin: 0 auto;
+  gap: 20px; 
+  grid-template-columns: repeat(4, 1fr); 
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
+.testo-parco {
+  background-color: #CEF17B;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px; 
+}
 
-.nome-sezione a {
-  text-decoration: underline;
-  color: #2E2D2D;
-  font-weight:bold;
+.nome-sezione h1 {
+  max-width: 70%; 
   margin: 48px auto;
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 footer {
@@ -348,59 +297,40 @@ footer nav a {
   
 }
 
-
-
 @media (max-width: 1500px) {
   section.card {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    
     gap: 25px;
     margin: 48px auto;
     padding: 0 16px;
-    max-width: 60%;
   }
-  
-  .date-regioni {
-   grid-template-columns: repeat(2, 1fr);
+
+  .altri-parchi {
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin: 20px auto;
     padding: 0 16px;
-    max-width: 60%;
-  }
-  .nome-sezione1{
-    max-width: 60%;
-    font-size: 18px;
   }
 
-  .nome-sezione{
-    max-width: 100%;
-    font-size: 18px;
-    
-  }
-
-  .nome-sezione a {
-    max-width: 100%;
-    font-size: 16px;
-    
-  }
   .carte {
+ 
     padding: 48px 16px 24px;
     gap: 48px;
   }
-
-  .content h1 {
+   .content h1 {
     font-size: 18px;
     text-align:left;
     
   }
 
-  .content p {
+   .content p {
     font-size: 14px;
     text-align:left;
   }
-
- .sezione-storia {
+ .attivita-ed-esperienze {
     grid-template-columns: repeat(3, 1fr); 
-    max-width: 60%; 
+    max-width: 70%; 
     gap: 24px; 
     margin: 32px auto;
     padding: 0 16px 20px;
@@ -430,12 +360,11 @@ footer nav a {
   }
 }
 
-
-
 @media (max-width: 850px) {
+  
   header,
   footer {
-    flex-direction: row;
+    flex-direction: row; 
     align-items: center;
     text-align: center;
     gap: 30px;
@@ -447,7 +376,21 @@ footer nav a {
     gap: 30px;
   }
 
+
+  .content h1 {
+    font-size: 18px;
+    text-align:left;
+    
+  }
+
+   .content p {
+    font-size: 14px;
+    text-align:left;
+  }
+
+ 
   section.card {
+    display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0 16px;
@@ -458,6 +401,7 @@ footer nav a {
     padding: 20px;
   }
 
+ 
   .card,
   .blocco {
     flex-direction: column;
@@ -485,10 +429,11 @@ footer nav a {
     font-size: 16px;
   }
 
-  .sezione-storia {
+
+  .attivita-ed-esperienze {
     grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 30px 10px;
+     padding: 30px 10px;
+     gap: 20px;
   }
 
   .box-testo h2,
@@ -507,12 +452,21 @@ footer nav a {
     height: auto;
   }
 
-  .nome-sezione h1 {
-    font-size: 24px;
+
+  .altri-parchi {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
     padding: 0 16px;
   }
 
-    .nome-sezione h1 {
+  .testo-parco {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  
+  .nome-sezione h1 {
     font-size: 24px;
     padding: 0 16px;
   }
@@ -551,19 +505,15 @@ footer nav a {
     height: auto;
     border-radius: 6px;
   }
-
-  .date-regioni {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 0 16px;
-  }
-
 }
 
 
+
 @media (max-width: 480px) {
+  
   .content h1 {
     font-size: 16px;
+   
   }
 
   .content p,
@@ -575,38 +525,58 @@ footer nav a {
     font-size: 14px;
   }
 
-  .nome-sezione,
-  .nome-sezione1,
+  .nome-sezione h1,
   .card .text-box h2,
   .blocco .text-box h2,
   .h2-carte h2 {
     font-size: 20px;
   }
 
-  .h2-carte h2 {
-    padding-top: 16px;
+  .h2-carte h2{
+   padding-top: 16px;
   }
+    
 
-  .carte,
-  .sezione-storia,
   .box-testo,
-  .date-regioni,
+  .carte,
+  .altri-parchi,
+  .attivita-ed-esperienze,
   .section.card {
     padding: 0 12px;
     gap: 16px;
   }
 
-  .carte {
-    padding: 0 12px;
-    gap: 16px;
-    max-width: 100%;
-  }
+   .carte {
+     padding: 0 12px;
+     gap: 16px;
+     max-width: 100%;
+   }
 
+  
   .img-carte img,
   .box-immagini img,
   .card img,
   .blocco img {
     border-radius: 8px;
+  }
+
+  .box-immagini {
+    gap: 16px;
+  }
+
+  .attivita-ed-esperienze {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0 10px;  
+    width: 100%;  
+  }
+
+  .box-testo h2 {
+    font-size: 18px;
+  }
+
+  .box-testo p {
+    font-size: 14px;
   }
 
   .box-immagini {
@@ -619,25 +589,25 @@ footer nav a {
     width: 100%;
     height: auto;
   }
-
-  .sezione-storia {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 0 10px;
-    width: 100%;
-  }
-
-  .box-testo h2 {
-    font-size: 18px;
-  }
-
-  .box-testo p {
-    font-size: 14px;
-  }
 }
 
 
 
+
+
+.paragrafo {
+   max-width: 85%;
+  margin:auto;   
+ 
+}
+
+.paragrafo p {
+  max-width: 82%;
+  margin: 1em auto; 
+  font-size: 20px;
+  text-align: left;
+  margin-top: 2em;
+}
 
 
 
@@ -662,12 +632,13 @@ footer nav a {
 }
 
 .nav-bar a {
-  color: white;
+ color: white;
   text-decoration: none;
   font-size: 14px;
   margin: 0;
   margin-right: 5%;
-  font-weight:500; 
+  font-weight:500;
+  
 }
 
 .nav-bar a:hover {
@@ -675,7 +646,7 @@ footer nav a {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 80%;
   
   
 }
@@ -700,7 +671,7 @@ footer nav a {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url("../img/home\ section\ hero.png");
+  background-image: url("../img/home\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -732,11 +703,11 @@ footer nav a {
 }
 
 
-.header-contenitore-storia {
+.header-contenitore-parchi {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/storia\ section\ hero.png");
+  background-image:url("../img/parchi\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -745,7 +716,7 @@ footer nav a {
 
 }
 
-.header-contenitore-storia::before {
+.header-contenitore-parchi::before {
   content: "";
   position: absolute;
   top: 0;
@@ -757,11 +728,11 @@ footer nav a {
 }
 
 
-.header-contenitore-date {
+.header-contenitore-attivita {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/date\ section\ hero.png");
+  background-image:url("../img/attività\ ed\ esperienze\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -770,7 +741,7 @@ footer nav a {
 
 }
 
-.header-contenitore-date::before {
+.header-contenitore-attivita::before {
   content: "";
   position: absolute;
   top: 0;
@@ -781,11 +752,11 @@ footer nav a {
   z-index: 1;
 }
 
-.header-contenitore-regioni {
+.header-contenitore-sila {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/regioni\ section\ hero.png");
+  background-image:url("../img/parco\ sila\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -794,7 +765,7 @@ footer nav a {
 
 }
 
-.header-contenitore-regioni::before {
+.header-contenitore-sila::before {
   content: "";
   position: absolute;
   top: 0;
@@ -805,11 +776,11 @@ footer nav a {
   z-index: 1;
 }
 
-.header-contenitore-limone {
+.header-contenitore-abruzzo {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa\ limone\ section\ hero.png");
+  background-image:url("../img/parco\ abruzzo\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -818,7 +789,7 @@ footer nav a {
 
 }
 
-.header-contenitore-limone::before {
+.header-contenitore-abruzzo::before {
   content: "";
   position: absolute;
   top: 0;
@@ -829,11 +800,11 @@ footer nav a {
   z-index: 1;
 }
 
-.header-contenitore-giovanni {
+.header-contenitore-toscano {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/festa\ san\ giovanni\ section\ hero.png");
+  background-image:url("../img/parco\ arcipelago\ toscano\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -842,7 +813,7 @@ footer nav a {
 
 }
 
-.header-contenitore-giovanni::before {
+.header-contenitore-toscano::before {
   content: "";
   position: absolute;
   top: 0;
@@ -853,11 +824,11 @@ footer nav a {
   z-index: 1;
 }
 
-.header-contenitore-cinghiale {
+.header-contenitore-etna {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra\ cinghiale\ section\ hero.png");
+  background-image:url("../img/parco\ etna\ section\ hero.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -866,7 +837,7 @@ footer nav a {
 
 }
 
-.header-contenitore-cinghiale::before {
+.header-contenitore-etna::before {
   content: "";
   position: absolute;
   top: 0;
@@ -877,11 +848,11 @@ footer nav a {
   z-index: 1;
 }
 
-.header-contenitore-pesce {
+.header-contenitore-vesuvio {
   position: relative;
   width: 100%;
   height: 400px;
-  background-image:url("../img/sagra\ pesce\ section\ hero.png");
+  background-image:url("../img/parco\ vesuvio\ section\ hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -890,321 +861,7 @@ footer nav a {
 
 }
 
-.header-contenitore-pesce::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-succu {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/festa\ su\ succu\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-succu::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-cavallo {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/festa\ cavallo\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-cavallo::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-
-.header-contenitore-palio {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/palio\ ticino\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-palio::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-ciliegie {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ ciliegie\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-ciliegie::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-gnocco {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ gnocco\ fritto\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-gnocco::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-
-.header-contenitore-polenta {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ polenta\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-polenta::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-birra {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/bear\ fest\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-birra::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-peperoncino {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/peperoncino\ festival\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-peperoncino::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-nduja {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/nduja\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-nduja::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-prodotti {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ prodotti\ tipici\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-prodotti::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-stragusto {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/stragusto\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-stragusto::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-salsiccia {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ salsiccia\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-salsiccia::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); 
-  z-index: 1;
-}
-
-.header-contenitore-cuccia {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-image:url("../img/sagra\ cuccia\ section\ hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-
-}
-
-.header-contenitore-cuccia::before {
+.header-contenitore-vesuvio::before {
   content: "";
   position: absolute;
   top: 0;
